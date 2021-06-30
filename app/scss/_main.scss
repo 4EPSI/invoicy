@@ -92,3 +92,31 @@
 		}
 	}
 }
+// business
+.business {
+	text-align: center;
+	&-title {
+		font-size: 32px;
+		font-weight: 700;
+		color: #33475b;
+	}
+	&-content {
+		width: 60%;
+		margin: auto;
+	}
+	&-left {
+		width: 50%;
+	}
+	&-text {
+		font-size: 16px;
+		color: #33475b;
+		font-weight: 700;
+	}
+	&-right {
+		width: 50%;
+	}
+	&-img {
+		height: 100%;
+		width: 100%;
+	}
+}
