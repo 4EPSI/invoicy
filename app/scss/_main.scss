@@ -98,6 +98,7 @@
 	&-title {
 		font-size: 32px;
 		font-weight: 700;
+		line-height: 40px;
 		color: #33475b;
 	}
 	&-content {
@@ -118,5 +119,89 @@
 	&-img {
 		height: 100%;
 		width: 100%;
+	}
+}
+// Template
+.template {
+	background: #1b2a4e;
+	text-align: center;
+	&-title {
+		color: #fff;
+		font-size: 30px;
+		font-weight: 700;
+	}
+	&-text {
+		color: #667fa5;
+		font-size: 16px;
+		margin: 0 auto;
+		width: 40%;
+	}
+	&-img {
+		cursor: pointer;
+		&:hover {
+			transform: scale(1.012);
+		}
+	}
+	&-link {
+		color: #667fa5;
+    	text-decoration: underline;
+		&:hover {
+			color: #667fa5;
+    		text-decoration: underline;
+		}
+	}
+}
+// receipts
+.receipt {
+	text-align: center;
+	&-title {
+		font-size: 32px;
+		font-weight: 700;
+		color: #33475b;
+		width: 80%;
+    	margin: auto;
+		line-height: 40px;
+	}
+	&-link {
+		color: #037ef3;
+		font-size: 16px;
+		font-family: LatoWeb,Helvetica,Arial,sans-serif;
+		&:hover {
+			color: #037ef3;
+		}
+	}
+	&-text {
+		font-size: 16px;
+		color: #33475b;
+		font-family: LatoWeb,Helvetica,Arial,sans-serif;
+	}
+}
+// Invoicy
+.invoicy {
+	border-top: 1px solid #f6f7f9;
+	text-align: center;
+	&-img {
+		height: 100px;
+	}
+	&-title {
+		font-size: 32px;
+		font-weight: 700;
+		color: #33475b;
+		line-height: 40px;
+	}
+	&-text {
+		font-size: 16px;
+		color: #33475b;
+	}
+	&-link {
+		padding: 12px 30px;
+		border-radius: 10px;
+    	font-size: 16px;
+		color: #fff;
+		background: #30c39e;
+		border: 1px solid #30c39e;
+		&:hover {
+			color: #fff;
+		}
 	}
 }
