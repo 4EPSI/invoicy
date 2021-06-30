@@ -1,0 +1,104 @@
+// templates
+.templates {
+    flex: 1 0 auto;
+	overflow: hidden;
+    background: #1b2a4e;
+    text-align: center;
+    &-title {
+        color: #fff;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    &-text {
+        color: #667fa5;
+        margin: auto;
+        width: 40%;
+    }
+    &-img {
+        cursor: pointer;
+        &:hover {
+            transform: scale(1.012);
+        }
+    }
+    &-premium {
+        padding: 25px;
+        text-align: center;
+        background: #fdfbefeb;
+        margin: 25px auto;
+        width: 70%;
+        border-radius: 4px;
+        h3 {
+            font-size: 18px;
+            font-weight: 700;
+            color: #33475b;
+        }
+        p {
+            font-size: 16px;
+            color: #33475b;
+            font-family: LatoWeb,Helvetica,Arial,sans-serif;
+        }
+        a {
+            padding: 12px 30px;
+            border-radius: 10px;
+            font-size: 16px;
+            color: #fff;
+            background: #30c39e;
+            border: 1px solid #30c39e;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+    &-item-img {
+        cursor: pointer;
+        position: relative;
+        img {
+            filter: blur(1px);
+        }
+    }
+    &-item-locked {
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        background: rgba(253,246,239,.78);
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &-content {
+        &-title {
+            font-size: 40px;
+            font-weight: 700;
+            color: #33475b;
+        }
+        h3 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #33475b
+        }
+        p {
+            font-size: 19px;
+            color: #33475b;
+        }
+        &-li {
+            list-style: disc;
+            color: #037ef3;
+        }
+        &-strong {
+            font-size: 19px;
+            color: #037ef3;
+        }
+        li {
+            list-style: disc;
+            font-size: 16px;
+            color: #33475b;
+            font-family: LatoWeb,Helvetica,Arial,sans-serif;
+        }
+        .string {
+            color: #037ef3;
+        }
+    }
+}

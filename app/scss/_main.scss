@@ -2,9 +2,10 @@
 .main {
 	flex: 1 0 auto;
 	overflow: hidden;
-    padding-top: 80px;
+    // padding-top: 80px;
 }
 .home {
+	padding-top: 80px;
 	&-left {
 		width: 40%;
 	}
