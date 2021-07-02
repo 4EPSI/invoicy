@@ -75,5 +75,30 @@
             color: #33475b;
         }
     }
+    &-faq {
+        padding: 3px 15px;
+        background: #cfdfff;
+        border-radius: 10px;
+        color: #037ef3;
+        text-transform: uppercase;
+        &-title {
+            font-size: 32px;
+            font-weight: 700;
+            color: #33475b;
+        }
+        &-question {
+            font-size: 18px;
+            color: #33475b;
+            font-family: LatoWeb,Helvetica,Arial,sans-serif;
+            font-weight: 700;
+        }
+        &-answer {
+            color: #7b8086;
+            font-size: 16px;
+        }
+    }
+    .blue {
+        color: #06c;
+    }
 }
 
