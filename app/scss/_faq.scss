@@ -1,0 +1,29 @@
+// faq
+.faq {
+	flex: 1 0 auto;
+	overflow: hidden;
+    &-title {
+        font-size: 40px;
+        font-weight: 700;
+        color: #33475b;
+    }
+    &-question {
+        font-size: 32px;
+        color: #33475b;
+        font-family: LatoWeb,Helvetica,Arial,sans-serif;
+        font-weight: 700;
+        line-height: 1.3em;
+    }
+    .blue {
+        color: #5480f3;
+    }
+    &-text {
+        font-size: 16px;
+        font-family: LatoWeb,Helvetica,Arial,sans-serif;
+        color: #33475b;
+    }
+    .text {
+        width: auto;
+    }
+}
+
