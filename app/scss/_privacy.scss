@@ -1,0 +1,28 @@
+// privacy
+.privacy {
+	flex: 1 0 auto;
+	overflow: hidden;
+    &-title {
+        color: #3a3a3a;
+        font-size: 18px;
+        font-weight: 900;
+    }
+    p {
+        color: #3a3a3a;
+        font-size: 18px;
+    }
+    strong {
+        color: #3a3a3a;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    // &-text {
+    //     color: #3a3a3a;
+    //     font-size: 18px;
+    //     strong {
+    //         font-weight: 700;
+    //     }
+    // }
+
+}
+
