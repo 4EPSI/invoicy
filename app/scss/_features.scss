@@ -1,0 +1,47 @@
+// feature
+.feature {
+	flex: 1 0 auto;
+	overflow: hidden;
+    &-list-title {
+        font-size: 30px;
+        font-weight: 700;
+        color: #33475b;
+        text-align: center;
+    }
+    &-card {
+        &-left {
+            width: 40%;
+        }
+        &-title {
+            font-size: 32px;
+            font-weight: 700;
+            color: #33475b
+        }
+        &-description {
+            font-size: 16px;
+            font-family: LatoWeb,Helvetica,Arial,sans-serif;
+            color: #33475b
+        }
+        &-right {
+            width: 60%;
+        }
+    }
+    &-btn {
+        color: #fff;
+        background: #30c39e;
+        border: 1px solid #30c39e;
+        text-shadow: none;
+        cursor: pointer;
+        box-shadow: 0 1px 1px #0000000d;
+        user-select: none;
+        padding: 12px 30px;
+        border-radius: 10px;
+        font-size: 16px;
+        &:hover {
+            color: #fff;
+            background: #30c39e;
+            border: 1px solid #30c39e;
+        }
+    }
+}
+
