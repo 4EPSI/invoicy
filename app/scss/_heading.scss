@@ -66,4 +66,68 @@
             color: #7C8087;
         }
     }
+    .accordion {
+        &-text {
+            color: #787878;
+            font-size: 20px;
+        }
+        .color {
+            color: #F0913B;
+        }
+        &-collapse {
+            border-bottom: 1px solid #D8D8D8;
+        }
+    }
+    &-document {
+        &-left {
+            width: 50%;
+        }
+        &-right {
+            width: 50%;
+        }
+        &-list {
+            width: calc(100% / 3);
+        }
+        &-text {
+            font-size: 18px;
+            color: #7C8087;
+        }
+        &-img {
+            box-shadow: 0 0 8px 0 #0000004d;
+            position: relative;
+        }
+        &-hov {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: #0000009e;
+            transition: all .3s ease;
+            opacity: 0;
+            cursor: pointer;
+            &:hover {
+                opacity: 1;
+            }
+        }
+        &-download {
+            font-size: 14px;
+            color: #FFFFFF;
+            font-weight: 500;
+        }
+        &-bottom-text {
+            color: #8C9096;
+            font-size: 10px;
+        }
+        &-link {
+            font-size: 18px;
+            color: #F0913B;
+            text-decoration: revert;
+            &:hover {
+                color: #F0913B;
+                text-decoration: revert;
+            }
+
+        }
+    }
 }
