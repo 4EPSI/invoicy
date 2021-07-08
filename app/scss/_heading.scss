@@ -185,3 +185,31 @@
         }
     }
 }
+// block-heading
+.block-heading {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    &-title {
+        font-size: 48px;
+        color: #FFFFFF;
+        font-weight: 700;
+    }
+    &-text {
+        font-size: 18px;
+        color: #FFFFFF;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &-btn {
+        background: #fff;
+        color: #F0913B;
+        font-size: 18px;
+        font-weight: 500;
+        &:hover {
+            color: #F0913B;
+        }
+    }
+}
