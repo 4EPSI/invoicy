@@ -234,7 +234,16 @@
         color: #1D293F;
         font-weight: 500;
     }
-    
+    &-nav {
+        height: 25px;
+		width: 25px;
+        font-size: 45px;
+        color: #E2E4E8;
+		cursor: pointer;
+		&:hover {
+            color: #F0913B;
+        }
+    }
 }
 .orange {
     color: #F0913B;
