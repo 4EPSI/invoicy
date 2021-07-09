@@ -36,10 +36,7 @@
         font-size: 50px;
         font-weight: 600;
     }
-    .text {
-        font-size: 18px;
-        color: #7C8087;
-    }
+
     &-block {
         border-bottom: 1px solid #D8D8D8;
         &-info {
@@ -212,4 +209,13 @@
             color: #F0913B;
         }
     }
+}
+.title-iteam {
+    color: #212D3F;
+    font-size: 18px;
+    font-weight: 600;
+}
+.text {
+    font-size: 18px;
+    color: #7C8087;
 }
