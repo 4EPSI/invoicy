@@ -9,5 +9,9 @@ $('.customer-slider').slick({
     speed: 300,
     slidesToShow: 4,
     // centerMode: true,
+    arrows: false,
     variableWidth: true
+});
+$('.customNextBtn').on('click', function() {
+    $('.customer-slider').slick('slickNext');
 });
