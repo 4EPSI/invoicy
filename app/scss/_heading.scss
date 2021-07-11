@@ -218,6 +218,8 @@
         width: 25%;
         border: 1px solid #E2E4E8;
         border-radius: 10px;
+        margin-right: 15px;
+        width: 350px;
     }
     &-img {
         width: 50px;
@@ -244,6 +246,9 @@
             color: #F0913B;
         }
     }
+    // &-slider-wrap {
+    //     margin-left: calc((100vw - 1140px) / 2 + 10px);
+    // }
 }
 .orange {
     color: #F0913B;

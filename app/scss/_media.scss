@@ -4,13 +4,24 @@
 
 /* ≥1200px */
 @include media-breakpoint-down(lg) {
-
+    .container {
+        max-width: none;
+    }
+    .customer-slider-wrap {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 /* ≥992px */
 @include media-breakpoint-down(md) {
-
-
+    // .container {
+    //     max-width: none;
+    // }
+    // .customer-slider-wrap {
+    //     padding-left: 15px;
+    //     padding-right: 15px;
+    // }
 }
 
 /* ≥768px */
@@ -39,11 +50,17 @@
 
 /* ≤992px */
 @include media-breakpoint-up(lg) {
-
+    // .customer-slider-wrap {
+    //     margin-left: calc((100vw - 1140px) / 2 + 10px);
+    //     width: calc(100vw - ((100vw - 1140px) / 2 + 10px));
+    // }
 }
 
 /* ≤1200px */
 @include media-breakpoint-up(xl) {
-
+    .customer-slider-wrap {
+        margin-left: calc((100vw - 1140px) / 2 + 10px);
+        width: calc(100vw - ((100vw - 1140px) / 2 + 10px));
+    }
 }
 
