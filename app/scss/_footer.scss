@@ -14,6 +14,9 @@
         font-size: 14px;
     }
     &-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         a {
             color: #e0e0e0;
         }
@@ -31,6 +34,7 @@
         }
     }
     &-link {
+        color: #e0e0e0;
         &:hover {
             text-decoration: underline;
             color: #e0e0e0;
