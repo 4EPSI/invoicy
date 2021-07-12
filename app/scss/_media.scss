@@ -120,6 +120,26 @@
     .footer-bottom {
         display: block;
     }
+    .templates-text  {
+        width: 80%;
+    }
+    .templates-premium {
+        width: 90%;
+    }
+    .templates-premium h3 {
+        font-size: 14px;
+    }
+    .templates-content-title {
+        font-size: 32px;
+        line-height: 38px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+    .templates-content h3 {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
 }
 
 /* ≥576px */
