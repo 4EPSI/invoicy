@@ -3,8 +3,17 @@
 	flex: 1 0 auto;
 	overflow: hidden;
     // padding-top: 80px;
+    // header {
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     right: 0;
+    // }
     &-head {
         text-align: center;
+        padding-top: 100px;
+        background: rgb(247,248,250);
+        background: linear-gradient(184deg, rgba(247,248,250,1) 0%, rgba(247,248,250,0.9598214285714286) 100%);
 
         &-btn {
             font-size: 18px;
