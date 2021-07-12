@@ -76,7 +76,9 @@
     }
     .home-left,
     .home-right,
-    .business-content {
+    .business-content,
+    .generator-right,
+    .generator-left {
         width: 100%;
     }
     .home-title {
@@ -139,6 +141,21 @@
         font-size: 18px;
         font-weight: 500;
         margin-bottom: 15px;
+    }
+    .generator-home {
+        display: block;
+    }
+    // generator
+    .generator-content {
+        flex-direction: column-reverse;
+    }
+    .generator-left-title {
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .generator-left-label {
+        font-size: 16px;
+        font-weight: 400;
     }
 }
 
