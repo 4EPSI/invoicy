@@ -75,7 +75,8 @@
         flex-direction: column-reverse;
     }
     .home-left,
-    .home-right {
+    .home-right,
+    .business-content {
         width: 100%;
     }
     .home-title {
@@ -87,6 +88,34 @@
     }
     .home-buttons {
         justify-content: center;
+    }
+    .home-feature-title,
+    .invoicy-title {
+        font-size: 18px;
+    }
+    .home-feature-block-title,
+    .home-feature-text {
+        font-size: 14px;
+    }
+    .business-title,
+    .receipt-title {
+        font-size: 18px;
+        line-height: 20px;
+        font-weight: 500;
+    }
+    .template-text {
+        width: 80%;
+    }
+    .template-img {
+        margin-bottom: 25px;
+    }
+    .invoicy-col {
+        display: none;
+    }
+    .invoicy-text  {
+        font-size: 18px;
+        margin: 0 auto;
+        width: 70%;
     }
 }
 
