@@ -94,7 +94,8 @@
     .home-feature-title,
     .invoicy-title,
     .free-invoice h3,
-    .block-invoicy-title {
+    .block-invoicy-title,
+    .pricing-faq-title {
         font-size: 18px;
     }
     .home-feature-block-title,
@@ -174,9 +175,22 @@
     .free-invoice-title {
         font-size: 32px;
     }
-    // .free-invoice h3 {
-    //     font-size: 18px;
-    // }
+    .pricing-table {
+        display: flex;
+    }
+    .pricing-table-head,
+    .pricing-table-ul {
+        width: 50%;
+    }
+    .pricing-table {
+        border: none;
+        border-bottom: 1px solid #efefef;
+        padding: 10px;
+    }
+    .pricing-faq-question {
+        font-size: 16px;
+        font-weight: 500;
+    }
 }
 
 /* ≥576px */

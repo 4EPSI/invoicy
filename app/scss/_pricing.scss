@@ -2,6 +2,7 @@
 .pricing {
 	flex: 1 0 auto;
 	overflow: hidden;
+    padding-top: 100px;
     &-content {
         text-align: center;
     }
@@ -44,7 +45,7 @@
         padding: 25px;
         border: 1px solid #efefef;
         border-radius: 4px;
-        min-height: 490px;
+        // min-height: 490px;
         &-title {
             font-size: 20px;
             color: #33475b;
@@ -64,6 +65,7 @@
             border: 1px solid #fa8c10;
             border-radius: 3px;
             height: 30px;
+            font-size: 14px;
             &:hover {
                 color: #fff;
                 background: #fa8c10;
