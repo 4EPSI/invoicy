@@ -87,7 +87,8 @@
     .heading-document-right,
     .heading-table-left,
     .heading-table-right,
-    .blog-card {
+    .blog-card,
+    .auth-panel {
         width: 100%;
     }
     .home-title {
@@ -105,7 +106,9 @@
     .free-invoice h3,
     .block-invoicy-title,
     .pricing-faq-title,
-    .faq-question {
+    .faq-question,
+    .feature-card-title,
+    .page-design h3 {
         font-size: 18px;
     }
     .home-feature-block-title,
@@ -122,7 +125,7 @@
         width: 80%;
     }
     .template-img {
-        margin-bottom: 25px;
+        margin-bottom: 24px;
     }
     .invoicy-col {
         display: none;
@@ -184,14 +187,17 @@
     }
     .free-invoice-title,
     .faq-title,
-    .blog-title {
+    .blog-title,
+    .page-design h2 {
         font-size: 32px;
     }
     .pricing-table {
         display: flex;
     }
     .pricing-table-head,
-    .pricing-table-ul {
+    .pricing-table-ul,
+    .feature-card-left,
+    .feature-card-right {
         width: 50%;
     }
     .pricing-table {
@@ -219,7 +225,8 @@
     .document-mob {
         width: 50%;
     }
-    .block-heading-title {
+    .block-heading-title,
+    .feature-list-title {
         font-size: 24px;
     }
 }
