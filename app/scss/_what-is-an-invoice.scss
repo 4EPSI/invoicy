@@ -2,75 +2,76 @@
 .what-is-an-invoice {
     flex: 1 0 auto;
 	overflow: hidden;
+    padding-top: 100px;
 }
-.blog-details {
-    &-title {
-        font-size: 40px;
-        text-align: center;
-    }
-    &-tags {
-        text-align: center;
-    }
-    &-tag {
-        padding: 3px 15px;
-        background: #cfdfff;
-        border-radius: 10px;
-        color: #037ef3;
-    }
-    &-box {
-        padding: 15px 0;
-        border-top: 1px solid #f6f7f9;
-        border-bottom: 1px solid #f6f7f9;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 14px;
-    }
-    &-content {
-        max-width: 740px;
-        width: 100%;
-        margin: 0 auto;
-        h1 {
-            font-size: 40px;
-            font-weight: 700;
-            color: #33475b;
-        }
-        h2 {
-            font-size: 32px;
-            font-weight: 700;
-            color: #33475b;
-            margin-bottom: 20px;
-        }
-        h3 {
-            font-size: 32px;
-            font-weight: 700;
-            color: #33475b;
-            margin-bottom: 25px;
-        }
-        p {
-            font-size: 19px;
-            font-family: LatoWeb,Helvetica,Arial,sans-serif;
-            margin-bottom: 15px;
-        }
-        .orange {
-            color: #ff9900;
-        }
-        li {
-            list-style: disc;
-            color: #33475b;
-            font-size: 18px;
-        }
-    }
-    &-more {
-        border-top: 1px solid #f6f7f9;
-        h2 {
-            font-size: 32px;
-            font-weight: 700;
-            color: #33475b;
-            margin-bottom: 20px;
-        }
-        .card-title {
-            font-size: 18px;
-        }
-    }
-}
+// .blog-details {
+//     &-title {
+//         font-size: 40px;
+//         text-align: center;
+//     }
+//     &-tags {
+//         text-align: center;
+//     }
+//     &-tag {
+//         padding: 3px 15px;
+//         background: #cfdfff;
+//         border-radius: 10px;
+//         color: #037ef3;
+//     }
+//     &-box {
+//         padding: 15px 0;
+//         border-top: 1px solid #f6f7f9;
+//         border-bottom: 1px solid #f6f7f9;
+//         display: flex;
+//         justify-content: space-between;
+//         align-items: center;
+//         font-size: 14px;
+//     }
+//     &-content {
+//         max-width: 740px;
+//         width: 100%;
+//         margin: 0 auto;
+//         h1 {
+//             font-size: 40px;
+//             font-weight: 700;
+//             color: #33475b;
+//         }
+//         h2 {
+//             font-size: 32px;
+//             font-weight: 700;
+//             color: #33475b;
+//             margin-bottom: 20px;
+//         }
+//         h3 {
+//             font-size: 32px;
+//             font-weight: 700;
+//             color: #33475b;
+//             margin-bottom: 25px;
+//         }
+//         p {
+//             font-size: 19px;
+//             font-family: LatoWeb,Helvetica,Arial,sans-serif;
+//             margin-bottom: 15px;
+//         }
+//         .orange {
+//             color: #ff9900;
+//         }
+//         li {
+//             list-style: disc;
+//             color: #33475b;
+//             font-size: 18px;
+//         }
+//     }
+//     &-more {
+//         border-top: 1px solid #f6f7f9;
+//         h2 {
+//             font-size: 32px;
+//             font-weight: 700;
+//             color: #33475b;
+//             margin-bottom: 20px;
+//         }
+//         .card-title {
+//             font-size: 18px;
+//         }
+//     }
+// }
